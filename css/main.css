@@ -9,6 +9,10 @@ a{
 body{
     margin: 0px;
 }
+footer{
+    background-color: gainsboro;
+    text-align: center;
+}
 h1{
     font-family: fairfaxhd;
 }
