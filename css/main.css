@@ -9,6 +9,10 @@ html{
     background-color: white;
     margin: 0px;
 }
+.lipuante{
+    background-color: gainsboro;
+    height: max-content;
+}
 .nimilipu{
     margin-left: 10%;
     font-size: 2rem;
