@@ -2,19 +2,34 @@ body{
     margin: 0px;
 }
 html{
-    background-color: brown;
+    background-color: white;
     margin: 0px;
 }
 .nimilipu{
-    margin-left: 25%;
+    margin-left: 10%;
     font-size: 2rem;
+    float: left;
 }
 .sewi{
-    background-color: aqua;
+    background-color: gray;
+    height: 5rem;
+    vertical-align: top;
+}
+.toki{
+    background-color: gainsboro;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    border-radius: 20px;
 }
 .tokiante{
-    background-color: red;
+    background-color: white;
     width: max-content;
     margin-left: auto;
-    margin-right: 0;
+    margin-right: 10%;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    vertical-align: text-bottom;
 }
