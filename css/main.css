@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+html{
+    background-color: brown;
+    margin: 0px;
+}
+.nimilipu{
+    margin-left: 25%;
+    font-size: 100px;
+}
+.sewi{
+    background-color: aqua;
+}
+.tokiante{
+    margin-left: 75%;
+    background-color: red;
+}
