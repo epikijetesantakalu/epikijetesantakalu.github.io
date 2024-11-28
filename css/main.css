@@ -1,3 +1,7 @@
+@font-face {
+    font-family: fairfaxhd;
+    src: url(\fonts\fairfaxhd.ttf);
+}
 a{
     text-decoration: none;
     color: black;
@@ -5,9 +9,18 @@ a{
 body{
     margin: 0px;
 }
+h1{
+    font-family: fairfaxhd;
+}
 html{
     background-color: white;
     margin: 0px;
+}
+img{
+    width: 180px;
+}
+p{
+    font-family: fairfaxhd;
 }
 .lipuante{
     background-color: gainsboro;
