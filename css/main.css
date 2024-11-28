@@ -12,15 +12,16 @@ html{
 .lipuante{
     background-color: gainsboro;
     height: max-content;
-    text-align: center;
 }
 .nimilipu{
     margin-left: 10%;
     font-size: 2rem;
+    float: left;
+    height: 4rem;
 }
 .sewi{
     background-color: gray;
-    height: 7em;
+    height: 5rem;
     vertical-align: top;
 }
 .toki{
