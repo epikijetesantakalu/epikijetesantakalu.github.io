@@ -23,8 +23,8 @@ html{
 img{
     width: 180px;
 }
-p{
-    font-family: fairfaxhd;
+small{
+    font-size: x-small;
 }
 .lipuante{
     background-color: gainsboro;
@@ -50,10 +50,10 @@ p{
 }
 .toki{
     background-color: gainsboro;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: auto;
     padding: 1%;
     border-radius: 20px;
+    max-width: 50rem;
 }
 .tokiante{
     background-color: white;
