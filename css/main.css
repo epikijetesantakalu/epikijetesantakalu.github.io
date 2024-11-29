@@ -1,6 +1,5 @@
-@font-face {
-    font-family: fairfaxhd;
-    src: url(\fonts\fairfaxhd.ttf);
+#map {
+    height: 500px;
 }
 a{
     text-decoration: none;
