@@ -30,6 +30,8 @@ p{
     background-color: gainsboro;
     height: max-content;
     width: 100%;
+    padding-top: 1px;
+    padding-bottom: 5px;
 }
 .nimiante{
     margin-top: 3px;
