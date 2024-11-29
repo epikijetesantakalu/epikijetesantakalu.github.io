@@ -30,11 +30,10 @@ p{
     background-color: gainsboro;
     height: max-content;
     width: 100%;
-    padding-top: 1px;
-    padding-bottom: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 .nimiante{
-    margin-top: 3px;
     margin-left: 10%;
 }
 .nimilipu{
@@ -47,6 +46,7 @@ p{
     background-color: gray;
     height: 5rem;
     vertical-align: top;
+    display: flow-root;
 }
 .toki{
     background-color: gainsboro;
