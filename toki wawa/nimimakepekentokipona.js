@@ -109,7 +109,7 @@ const maKuli= L.marker([35.976068,44.347687],{icon: L.spriteIcon('purple')}).add
 const maKusala= L.marker([22.3998,71.325386],{icon: L.spriteIcon('purple')}).addTo(map).bindPopup("<h1>ma Kusala</h1><p>lipu mama: <a href='https://sona.pona.la/wiki/Source:Toki_Pona:_The_Language_of_Good/Place_Names'>lipu pu</a></p>");
 const maKuwasi= L.marker([29.317142,47.778683],{icon: L.spriteIcon('orange')}).addTo(map).bindPopup("<h1>ma Kuwasi</h1><p>lipu mama: <a href='https://sona.pona.la/wiki/Source:Toki_Pona:_The_Language_of_Good/Place_Names'>lipu pu</a></p>");
 const maLanka= L.marker([7.882626,80.751503],{icon: L.spriteIcon('orange')}).addTo(map).bindPopup("<h1>ma Lanka</h1><p>lipu mama: <a href='https://sona.pona.la/wiki/Source:Toki_Pona:_The_Language_of_Good/Place_Names'>lipu pu</a></p>");
-const maLosi= L.marker([69.673056,99.693936],{icon: L.spriteIcon('orange')}).addTo(map).bindPopup("<h1>ma Losi</h1><p>lipu mama: <a href='https://sona.pona.la/wiki/Source:Toki_Pona:_The_Language_of_Good/Place_Names'>lipu pu</a></p>");
+const maLosi= L.marker([60.580568,76.149708],{icon: L.spriteIcon('orange')}).addTo(map).bindPopup("<h1>ma Losi</h1><p>lipu mama: <a href='https://sona.pona.la/wiki/Source:Toki_Pona:_The_Language_of_Good/Place_Names'>lipu pu</a></p>");
 const maLunpan= L.marker([33.922211, 35.895355],{icon: L.spriteIcon('orange')}).addTo(map).bindPopup("<h1>ma Lunpan</h1><p>lipu mama: <a href='https://sona.pona.la/wiki/Source:Toki_Pona:_The_Language_of_Good/Place_Names'>lipu pu</a></p>");
 const maMalasija= L.marker([3.781534,102.308559],{icon: L.spriteIcon('orange')}).addTo(map).bindPopup("<h1>ma Malasija</h1><p>lipu mama: <a href='https://sona.pona.la/wiki/Source:Toki_Pona:_The_Language_of_Good/Place_Names'>lipu pu</a></p>");
 const maMijama= L.marker([21.987457,96.010549],{icon: L.spriteIcon('orange')}).addTo(map).bindPopup("<h1>ma Mijama</h1><p>lipu mama: <a href='https://sona.pona.la/wiki/Source:Toki_Pona:_The_Language_of_Good/Place_Names'>lipu pu</a></p>");
@@ -211,6 +211,8 @@ const matomoAmasan= L.marker([41.486239,-2.532135],{icon: L.spriteIcon('blue')})
 const matomoAkuleli= L.marker([65.678687,-18.112457],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Akuleli</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Akuleli'>lipu Wikipesija</a></p>");
 const matomoLekawi= L.marker([64.12616,-21.852621],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Lekawi</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Lekawi'>lipu Wikipesija</a></p>");
 
+//ma Italija
+const matomoKalijali= L.marker([39.215152,9.110501],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Kalijali</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Kalijali'>lipu Wikipesija</a></p>");
 
 //ma Mewika
 const matomoNuOlin= L.marker([29.953229,-90.071017],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Nu Olin</h1><p>lipu mama: <a href='https://mun.la/lipu/jan-pi-ma-nu-olin.html'>lipu pi jan Kekan San</a></p>");
@@ -231,21 +233,32 @@ const matomoTokijo= L.marker([35.689552, 139.691818],{icon: L.spriteIcon('blue')
 const matomoTotoli= L.marker([35.49417,134.208769],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Totoli</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Totoli'>lipu Wikipesija</a></p>");
 
 //ma Juke
+const matomoLiwepu= L.marker([53.408293,-2.979047],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Liwepu</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Liwepu'>lipu Wikipesija</a></p>");
+const matomoKasi= L.marker([51.476025,-3.179256],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Kasi</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Kasi'>lipu Wikipesija</a></p>");
 const matomoSanwelepusukuwinkisikokelekuwelentolopusulantasilijokokokoko= L.marker([53.221246,-4.208922],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Sanwelepusukuwinkisikokelekuwelentolopusulantasilijokokokoko</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Sanwelepusukuwinkisikokelekuwelentolopusulantasilijokokokoko'>lipu Wikipesija</a></p>");
 
 //ma Naselija
 const matomoEko= L.marker([6.457397,3.387968],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Eko</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Eko'>lipu Wikipesija</a></p>");
 
+//ma Pakisan
+const matomoKalasi= L.marker([24.851786,67.008137],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Kalasi</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Kalasi'>lipu Wikipesija</a></p>");
+
 //ma Pesije
 const matomoAloseta= L.marker([50.937788,4.041153],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Aloseta</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Aloseta'>lipu Wikipesija</a></p>");
+const matomoKenta= L.marker([51.053771,3.722286],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Kenta</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Kenta'>lipu Wikipesija</a></p>");
 const matomoPuse= L.marker([50.845005,4.358252],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Puse</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Puse'>lipu Wikipesija</a></p>");
 
 //ma Sonko
 const matomoApin= L.marker([45.801916,126.535816],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Apin</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Apin'>lipu Wikipesija</a></p>");
+const matomoKansu= L.marker([23.124103,113.261108],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Kansu</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Kansu'>lipu Wikipesija</a></p>");
+
+//ma Sensa
+const matomoLinsupin= L.marker([58.409411,15.624404],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Linsupin</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Linsupin'>lipu Wikipesija</a></p>");
 
 //ma Tosi
 const matomoAnpu= L.marker([53.547524,9.990728],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Anpu</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Anpu'>lipu Wikipesija</a></p>");
 const matomoliliPinikepeke= L.marker([50.737151,6.238785],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo lili Pinikepeke</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_lili_Pinikepeke'>lipu Wikipesija</a></p>");
+const matomoLekenpu= L.marker([49.016605,12.101514],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Lekenpu</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Lekenpu'>lipu Wikipesija</a></p>");
 
 //ma Tuki
 const matomoAnkala= L.marker([39.896181,32.86238],{icon: L.spriteIcon('blue')}).addTo(map).bindPopup("<h1>ma tomo Ankala</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_tomo_Ankala'>lipu Wikipesija</a></p>");
@@ -268,3 +281,7 @@ const maTotoli= L.marker([35.335241,133.828598],{icon: L.spriteIcon('purple')}).
 
 //ma Pesije
 const maPantelen= L.marker([51,4.5],{icon: L.spriteIcon('purple')}).addTo(map).bindPopup("<h1>ma Pantelen</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_Pantelen'>lipu Wikipesija</a></p>");
+
+//ma Sonko
+const maOmun= L.marker([22.191829,113.554613],{icon: L.spriteIcon('purple')}).addTo(map).bindPopup("<h1>ma Omun</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_Omun'>lipu Wikipesija</a></p>");
+const maOnkon= L.marker([22.4039,114.142999],{icon: L.spriteIcon('purple')}).addTo(map).bindPopup("<h1>ma Onkon</h1><p>lipu mama: <a href='https://wikipesija.org/wiki/ma_Onkon'>lipu Wikipesija</a></p>");
