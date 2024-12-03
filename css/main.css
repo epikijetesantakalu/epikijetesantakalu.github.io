@@ -8,13 +8,13 @@ a{
 body{
     margin: 0px;
     font-size: 120%;
-    font-family: "Catamaran", sans-serif;
 }
 footer{
     background-color: gainsboro;
     text-align: center;
     margin-top: 2%;
     padding-top: 5px;
+    font-family: "Catamaran", sans-serif;
 }
 h1{
     font-family: fairfaxhd;
@@ -28,6 +28,15 @@ img{
 }
 small{
     font-size: x-small;
+}
+:lang(en) 	{
+    font-family: "Catamaran", sans-serif;
+}
+:lang(ja) 	{
+    font-family: "Noto Sans JP", sans-serif;
+}
+:lang(tok) 	{
+    font-family: "Catamaran", sans-serif;
 }
 .hidden{
     color: gainsboro;
