@@ -1,4 +1,7 @@
-@font-face{font-family:Phun-Sans;font-weight:400;src:url(https://kaeru2193.github.io/Phun-Resources/font/Phun-Sans/Phun-Sans-Rounded-Regular.woff) format("woff")}
+@font-face{
+    font-family: Phun-Sans;
+    src: url(epikijetesantakalu.github.io/fonts/Phun-Sans-Rounded-Regular-20241023.ttf) format("ttf")
+}
 #map {
     height: 500px;
 }
