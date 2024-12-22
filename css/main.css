@@ -1,77 +1,116 @@
-@font-face{
+@font-face {
     font-family: Phun-Sans;
-    src: url(epikijetesantakalu.github.io/fonts/Phun-Sans-Rounded-Regular-20241023.ttf) format("ttf")
+    font-weight: 400;
+    src: url(https://kaeru2193.github.io/Phun-Resources/font/Phun-Sans/Phun-Sans-Rounded-Regular.woff) format("woff")
 }
+
 #map {
     height: 500px;
 }
-a{
+
+#toggleBtn {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    border: none;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+a {
     text-decoration: none;
     color: var(--text-colour);
 }
-body{
+
+body {
     margin: 0px;
     font-size: 120%;
     background-color: var(--background-colour);
 }
-footer{
+
+footer {
     background-color: var(--main-colour);
     text-align: center;
     margin-top: 2%;
     padding-top: 5px;
 }
-html{
+
+html {
     --background-colour: white;
     --main-colour: gainsboro;
     --title-colour: gray;
     color: black;
     margin: 0px;
 }
-img{
+
+img {
     width: 180px;
 }
-small{
+
+small {
     font-size: x-small;
 }
-:lang(en) 	{
+
+:lang(en) {
     font-family: "Catamaran", sans-serif;
 }
-:lang(ja) 	{
+
+:lang(ja) {
     font-family: "Noto Sans JP", sans-serif;
 }
-:lang(tok) 	{
+
+:lang(phn) {
+    font-family: 'Phun-Sans', serif;
+}
+
+:lang(tok) {
     font-family: "Catamaran", sans-serif;
 }
-.hidden{
+.blue{
+    color: blue;
+}
+.hidden {
     color: var(--main-colour);
 }
-.lipuante{
+
+.lipuante {
     background-color: var(--main-colour);
     height: max-content;
     width: 100%;
     padding-top: 3px;
     padding-bottom: 3px;
 }
-.nimiante{
+
+.nimiante {
     margin-left: 10%;
 }
-.nimilipu{
+
+.nimilipu {
     margin-left: 10%;
     font-size: 2rem;
     float: left;
     height: 4rem;
 }
-.phun{
-    font-family: 'Phun-Sans', serif;
+.phun {
+    font-size: 2rem;
 }
-.sewi{
+.phundiv{
+    padding-left: 2rem;
+}
+.red{
+    color: red;
+}
+.sewi {
     background-color: var(--title-colour);
     height: 5rem;
     vertical-align: top;
     display: flow-root;
     padding-top: 2%;
 }
-.toki{
+
+.toki {
     background-color: var(--main-colour);
     padding: 1%;
     border-radius: 20px;
@@ -81,7 +120,8 @@ small{
     margin-top: 2%;
     position: relative;
 }
-.tokiante{
+
+.tokiante {
     background-color: white;
     width: max-content;
     margin-left: auto;
