@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'PhunSans';
-    src: url('\Phun-Sans-Rounded-Regular-20241023.ttf') format('truetype');
-}
+@font-face{font-family:Phun-Sans;font-weight:400;src:url(https://kaeru2193.github.io/Phun-Resources/font/Phun-Sans/Phun-Sans-Rounded-Regular.woff) format("woff")}
 #map {
     height: 500px;
 }
@@ -62,7 +59,7 @@ small{
     height: 4rem;
 }
 .phun{
-    font-family: "PhunSans", sans-serif;
+    font-family: 'Phun-Sans', serif;
 }
 .sewi{
     background-color: var(--title-colour);
