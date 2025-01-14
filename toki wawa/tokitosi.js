@@ -5,5 +5,5 @@ const A1Nouns = [
 ];
 
 window.onload = function() {
-  A1nounText.innerText = A1Nouns[0].name
+  A1NounText.innerText = A1Nouns[0].name
 };
