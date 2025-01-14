@@ -67,7 +67,7 @@ window.onload = function() {
 };
 
 function A1RandomNoun() {
-  A1NounID = (Math.random() * A1Nouns.length) - 1;
+  A1NounID = Math.floor(Math.random() * A1Nouns.length);
   A1NounText.innerText = A1Nouns[A1NounID].name;
 };
 
