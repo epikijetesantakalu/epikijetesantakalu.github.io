@@ -51,13 +51,17 @@ const A1Nouns = [
   {name: 'Tante', gender: 'F'},
   {name: 'Deutschlehrer', gender: 'M'},
   {name: 'Deutschlehrerin', gender: 'F'},
-  {name: 'Deutsch', gender: 'N'},
   {name: 'Familienname', gender: 'M'},
   {name: 'Kurs', gender: 'M'},
   {name: 'Sprache', gender: 'F'},
   {name: 'Taxifahrer', gender: 'M'},
   {name: 'Taxifahrerin', gender: 'F'},
   {name: 'Forname', gender: 'M'},
+  {name: 'Polizei', gender: 'F'},
+  {name: 'Sprachkurs', gender: 'M'},
+  {name: 'Tourist', gender: 'M'},
+  {name: 'Touristin', gender: 'F'},
+  {name: 'Vater', gender: 'M'},
 ];
 
 let A1NounID;
