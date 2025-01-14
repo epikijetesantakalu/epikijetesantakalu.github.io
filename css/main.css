@@ -83,6 +83,16 @@ small {
     padding-bottom: 3px;
 }
 
+.nenamute {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nimi {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .nimiante {
     margin-left: 10%;
 }
