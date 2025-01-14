@@ -74,29 +74,29 @@ function A1RandomNoun() {
 A1MButton.addEventListener('click', () => {
   if(A1Nouns[A1NounID].gender === 'M') {
     A1NounText.innerText = 'Richtig!';
-    setTimeout(A1RandomNoun(), 1000);
+    setTimeout(A1RandomNoun, 1000);
   } else {
     A1NounText.innerText = 'Falsch...';
-    setTimeout(A1RandomNoun(), 1000);
+    setTimeout(A1RandomNoun, 1000);
   }
 });
 
 A1FButton.addEventListener('click', () => {
   if(A1Nouns[A1NounID].gender === 'F') {
     A1NounText.innerText = 'Richtig!';
-    setTimeout(A1RandomNoun(), 1000);
+    setTimeout(A1RandomNoun, 1000);
   } else {
     A1NounText.innerText = 'Falsch...';
-    setTimeout(A1RandomNoun(), 1000);
+    setTimeout(A1RandomNoun, 1000);
   }
 });
 
 A1NButton.addEventListener('click', () => {
   if(A1Nouns[A1NounID].gender === 'N') {
     A1NounText.innerText = 'Richtig!';
-    setTimeout(A1RandomNoun(), 1000);
+    setTimeout(A1RandomNoun, 1000);
   } else {
     A1NounText.innerText = 'Falsch...';
-    setTimeout(A1RandomNoun(), 1000);
+    setTimeout(A1RandomNoun, 1000);
   }
 });
