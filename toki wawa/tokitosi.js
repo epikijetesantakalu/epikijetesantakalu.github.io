@@ -75,8 +75,11 @@ A1MButton.addEventListener('click', () => {
   if(A1Nouns[A1NounID].gender === 'M') {
     A1NounText.innerText = 'Richtig!';
     setTimeout(A1RandomNoun, 1000);
+  } else if(A1Nouns[A1NounID].gender === 'F') {
+    A1NounText.innerText = `Falsch..."die ${A1Nouns[A1NounID].name}" ist richtig.`;
+    setTimeout(A1RandomNoun, 1000);
   } else {
-    A1NounText.innerText = 'Falsch...';
+    A1NounText.innerText = `Falsch..."das ${A1Nouns[A1NounID].name}" ist richtig.`;
     setTimeout(A1RandomNoun, 1000);
   }
 });
@@ -85,8 +88,11 @@ A1FButton.addEventListener('click', () => {
   if(A1Nouns[A1NounID].gender === 'F') {
     A1NounText.innerText = 'Richtig!';
     setTimeout(A1RandomNoun, 1000);
+  }  else if(A1Nouns[A1NounID].gender === 'M') {
+    A1NounText.innerText = `Falsch..."der ${A1Nouns[A1NounID].name}" ist richtig.`;
+    setTimeout(A1RandomNoun, 1000);
   } else {
-    A1NounText.innerText = 'Falsch...';
+    A1NounText.innerText = `Falsch..."das ${A1Nouns[A1NounID].name}" ist richtig.`;
     setTimeout(A1RandomNoun, 1000);
   }
 });
@@ -95,8 +101,11 @@ A1NButton.addEventListener('click', () => {
   if(A1Nouns[A1NounID].gender === 'N') {
     A1NounText.innerText = 'Richtig!';
     setTimeout(A1RandomNoun, 1000);
+  } else if(A1Nouns[A1NounID].gender === 'M') {
+    A1NounText.innerText = `Falsch..."der ${A1Nouns[A1NounID].name}" ist richtig.`;
+    setTimeout(A1RandomNoun, 1000);
   } else {
-    A1NounText.innerText = 'Falsch...';
+    A1NounText.innerText = `Falsch..."die ${A1Nouns[A1NounID].name}" ist richtig.`;
     setTimeout(A1RandomNoun, 1000);
   }
 });
