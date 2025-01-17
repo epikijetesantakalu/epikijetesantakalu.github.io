@@ -85,6 +85,16 @@ const A1Nouns = [
   {name: 'Handynummer', gender: 'F'},
   {name: 'Radio', gender: 'N'},
   {name: 'Telefonnummer', gender: 'F'},
+  {name: 'Amt', gender: 'N'},
+  {name: 'Dialog', gender: 'M'},
+  {name: 'Heimatland', gender: 'N'},
+  {name: 'Nachname', gender: 'M'},
+  {name: 'Onkel', gender: 'M'},
+  {name: 'Passnummer', gender: 'F'},
+  {name: 'Postleitzahl', gender: 'F'},
+  {name: 'Tochter', gender: 'F'},
+  {name: 'Reisepassnummer', gender: 'F'},
+  {name: 'Wohnort', gender: 'M'},
 ];
 
 let A1NounID;
