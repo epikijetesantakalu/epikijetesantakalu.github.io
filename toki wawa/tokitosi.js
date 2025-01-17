@@ -80,6 +80,11 @@ const A1Nouns = [
   {name: 'Geschenk', gender: 'N'},
   {name: 'Person', gender: 'F'},
   {name: 'Zahl', gender: 'F'},
+  {name: 'Fundbüro', gender: 'N'},
+  {name: 'Handy', gender: 'N'},
+  {name: 'Handynummer', gender: 'F'},
+  {name: 'Radio', gender: 'N'},
+  {name: 'Telefonnummer', gender: 'F'},
 ];
 
 let A1NounID;
