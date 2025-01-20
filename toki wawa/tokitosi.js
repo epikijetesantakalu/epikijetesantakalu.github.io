@@ -100,6 +100,22 @@ const A1Nouns = [
   {name: 'Lampe', gender: 'F'},
   {name: 'Land', gender: 'N'},
   {name: 'Party', gender: 'F'},
+  {name: 'Apfelsaft', gender: 'M'},
+  {name: 'Bier', gender: 'N'},
+  {name: 'Cola', gender: 'F'},
+  {name: 'Eis', gender: 'N'},
+  {name: 'Fahrradladen', gender: 'M'},
+  {name: 'Kühlschrank', gender: 'M'},
+  {name: 'Limo', gender: 'F'},
+  {name: 'Limonade', gender: 'F'},
+  {name: 'Milch', gender: 'F'},
+  {name: 'Orangensaft', gender: 'M'},
+  {name: 'Saft', gender: 'M'},
+  {name: 'Speisekarte', gender: 'F'},
+  {name: 'Tee', gender: 'M'},
+  {name: 'Wasser', gender: 'N'},
+  {name: 'Wein', gender: 'M'},
+  {name: 'Zucker', gender: 'M'},
 ];
 
 let A1NounID;
