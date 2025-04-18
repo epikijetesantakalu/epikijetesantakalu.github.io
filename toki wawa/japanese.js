@@ -24,7 +24,7 @@ function RandomWord() {
 
 function test_event(e) {
   if (e.key === "Enter") {
-    if (Input.value = Words[WordID].japanese) {
+    if (Input.value === Words[WordID].japanese) {
       Result.innerText = 'Correct!'
       Input.value = '';
       RandomWord();
