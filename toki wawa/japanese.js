@@ -7,6 +7,8 @@ Input.addEventListener("keydown", test_event);
 const Words = [
   {english: 'turtle', japanese: 'かめ'},
   {english: 'lover', japanese: 'あいじん'},
+  {english: 'cherry blossom', japanese: 'さくら'},
+  {english: 'I', japanese: 'わたし'},
 ];
 
 let WordID;
@@ -24,10 +26,12 @@ function test_event(e) {
   if (e.key === "Enter") {
     if (Input.value = Words[WordID].japanese) {
       Result.value = 'Correct!'
+      Input.value = '';
       RandomWord();
     }
     else {
       Result.value = 'Incorrect...'
+      Input.value = '';
       RandomWord();
     }
   }  
