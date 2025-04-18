@@ -9,6 +9,10 @@ const Words = [
   {english: 'lover', japanese: 'あいじん'},
   {english: 'cherry blossom', japanese: 'さくら'},
   {english: 'I', japanese: 'わたし'},
+  {english: 'recent', japanese: 'さいきん'},
+  {english: 'how', japanese: 'どう'},
+  {english: 'hello(formal)', japanese: 'こんにちは'},
+  {english: 'hello(informal)', japanese: 'やっほー'},
 ];
 
 let WordID;
@@ -30,7 +34,7 @@ function test_event(e) {
       RandomWord();
     }
     else {
-      Result.innerText = 'Incorrect...'
+      Result.innerText = 'Incorrect...The correcat answer was ' + Words[WordID].japanese;
       Input.value = '';
       RandomWord();
     }
