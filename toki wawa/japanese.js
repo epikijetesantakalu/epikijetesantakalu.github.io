@@ -10,5 +10,5 @@ window.onload = function() {
 };
 
 function RandomWord() {
-  Text.innerText = A1Nouns[Math.floor(Math.random() * Words.length)].english;
+  Text.innerText = Words[Math.floor(Math.random() * Words.length)].english;
 };
