@@ -23,11 +23,11 @@ function RandomWord() {
 function test_event(e) {
   if (e.key === "Enter") {
     if (Input.value = Words[WordID].japanese) {
-      Result.value = Correct!
+      Result.value = 'Correct!'
       RandomWord();
     }
     else {
-      Result.value = Incorrect...
+      Result.value = 'Incorrect...'
       RandomWord();
     }
   }  
