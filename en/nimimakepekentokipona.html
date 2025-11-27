@@ -37,10 +37,12 @@
             <h2>I have a suggestion/error!</h2>
             <p>Please contact me! But if you want to add something, please send me a source.</p>
         </div>
-        <footer lang="tok">
-            <marquee width="100%" direction="right" height="min-content">三 ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂̀·̂́̇˒</marquee>
-            ©2024 - 2025 epikijetesantakalu
-        </footer>
+    
+    <div id="footer"></div>
+
+    <script>
+        fetch("..\\footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
+    </script>
         <script src="https://cdn.jsdelivr.net/npm/leaflet-sprite@1.0.0/dist/leaflet.sprite.min.js"></script>
         <script src="\toki wawa\nimimakepekentokipona.js"></script>
     </body>

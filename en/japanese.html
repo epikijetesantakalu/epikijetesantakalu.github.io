@@ -34,11 +34,12 @@
         <input class="input" id="Input" type="text">
         <h1 class="nimi" id="Result"></h1>
     </div>
-    <footer>
-        <marquee width="100%" direction="right" height="min-content">三 ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒
-            ˛ı·̂̀·̂́̇˒</marquee>
-        ©2024 - 2025 epikijetesantakalu
-    </footer>
+    
+    <div id="footer"></div>
+
+    <script>
+        fetch("..\\footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
+    </script>
     <script src="\toki wawa\japanese.js"></script>
 </body>
 

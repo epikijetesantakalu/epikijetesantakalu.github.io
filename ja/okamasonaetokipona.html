@@ -131,9 +131,11 @@
             <p>さて、語彙を習得する準備ができました。</p>
         </div>
         
-        <footer lang="tok">
-            <marquee width="100%" direction="right" height="min-content">三 ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂̀·̂́̇˒</marquee>
-            ©2024 - 2025 epikijetesantakalu
-        </footer>
+    
+    <div id="footer"></div>
+
+    <script>
+        fetch("..\\footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
+    </script>
     </body>
 </html>

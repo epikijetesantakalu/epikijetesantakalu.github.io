@@ -28,7 +28,7 @@
     <div class="toki">
         <h1>o kama pona! ni li lipu epikijetesantakalu!</h1>
         <h2>sina seme?</h2>
-        <p>mi epikijetesantakalu! mi lon ma Nijon. mi ken toki kepeken toki Nijon anu toki Inli anu toki pona.</p>
+        <p>mi epikijetesantakalu Lili! mi lon ma Nijon. mi ken toki kepeken toki Nijon anu toki Inli anu toki pona.</p>
         <h2>mi wile toki tawa sina!</h2>
         <p>ni li pona mute! o lukin e <a href="\tok\lipuantemi"><u>lipu ante mi</u></a>. taso, sina toki tawa mi la,
             ijo ni li suli:</p>
@@ -57,11 +57,13 @@
             <a href="https://sike.pona.la/jan/epikijetesantakalu/next.html" id="next">lipu poka →</a>
         </span>
     </div>
-    <footer>
-        <marquee width="100%" direction="right" height="min-content">三 ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒ ˛ı·̂·̂˒
-            ˛ı·̂̀·̂́̇˒</marquee>
-        ©2024 - 2025 epikijetesantakalu
-    </footer>
+    
+    
+    <div id="footer"></div>
+
+    <script>
+        fetch("..\\footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
+    </script>
 </body>
 
 </html>
