@@ -8,21 +8,8 @@
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     </head>
     <body>
-        <div class="sewi">
-            <div class="nimilipu">
-                <a href="\.">
-                    lipu epikijetesantakalu
-                </a>
-            </div>
-            <div class="tokiante">
-                <a href="\tok\nimimakepekentokipona">toki pona</a> | <a href="\en\nimimakepekentokipona">English</a> | <a href="\ja\nimimakepekentokipona">日本語</a>
-            </div>
-        </div>
-        <div class="lipuante">
-            <div class="nimiante">
-                <a href="\tok\epikijetesantakaluliseme">epikijetesantakalu li seme?</a> | <a href="\tok\nimimakepekentokipona">nimi ma kepeken toki pona</a> | <a href="\tok\lipuantemi">lipu ante mi</a>
-            </div>
-        </div>
+        
+        <div id="menutok"></div>
         <div class="toki">
             <h1>nimi ma kepeken toki pona</h1>
             <p>ni li nimi pi ma mute kepeken toki pona. nimi ale li jo e lipu mama.</p>
@@ -40,6 +27,9 @@
     
     <div id="footer"></div>
 
+    <script>
+        fetch("\menutok.html").then((response) => response.text()).then((data) => document.querySelector("#menutok").innerHTML = data);
+    </script>
     <script>
         fetch("..\\footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
     </script>

@@ -9,22 +9,9 @@
 </head>
 
 <body>
-    <div class="sewi">
-        <div class="nimilipu">
-            <a href="\en">
-                lipu epikijetesantakalu
-            </a>
-        </div>
-        <div class="tokiante">
-            <a href="\.">toki pona</a> | <a href="\en">English</a> | <a href="\ja">日本語</a>
-        </div>
-    </div>
-    <div class="lipuante">
-        <div class="nimiante">
-            <a href="\en\epikijetesantakaluliseme">What's an epikijetesantakalu?</a> | <a
-                href="\en\nimimakepekentokipona">Toki pona world map</a> | <a href="\en\lipuantemi">My other things</a>
-        </div>
-    </div>
+    
+    <div id="menuen"></div>
+
     <div class="toki">
         <h1>Welcome to epikijetesantakalu's website!</h1>
         <h2>Who are you?</h2>
@@ -50,6 +37,9 @@
     
     <div id="footer"></div>
 
+    <script>
+        fetch("\menuen.html").then((response) => response.text()).then((data) => document.querySelector("#menuen").innerHTML = data);
+    </script>
     <script>
         fetch("..\\footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
     </script>

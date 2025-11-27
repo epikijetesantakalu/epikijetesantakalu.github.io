@@ -8,21 +8,10 @@
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     </head>
     <body>
-        <div class="sewi">
-            <div class="nimilipu" lang="tok">
-                <a href="\.">
-                    lipu epikijetesantakalu
-                </a>
-            </div>
-            <div class="tokiante">
-                <a href="\tok\nimimakepekentokipona">toki pona</a> | <a href="\en\nimimakepekentokipona">English</a> | <a href="\ja\nimimakepekentokipona">日本語</a>
-            </div>
-        </div>
-        <div class="lipuante">
-            <div class="nimiante">
-                <a href="\en\epikijetesantakaluliseme">What's an epikijetesantakalu?</a> | <a href="\en\nimimakepekentokipona">Toki pona world map</a> | <a href="\en\lipuantemi">My other things</a>
-            </div>
-        </div>
+        
+    
+    <div id="menuen"></div>
+
         <div class="toki">
             <h1>Toki pona world map</h1>
             <p>This is a purely anecdotal world map in toki pona.</p>
@@ -40,6 +29,9 @@
     
     <div id="footer"></div>
 
+    <script>
+        fetch("\menuen.html").then((response) => response.text()).then((data) => document.querySelector("#menuen").innerHTML = data);
+    </script>
     <script>
         fetch("..\\footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
     </script>

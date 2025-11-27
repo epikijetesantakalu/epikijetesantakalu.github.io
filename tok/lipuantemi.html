@@ -6,21 +6,8 @@
         <link rel="icon" type="image/x-icon" href="\sitelen\favicon.ico">
     </head>
     <body>
-        <div class="sewi">
-            <div class="nimilipu">
-                <a href="\.">
-                    lipu epikijetesantakalu
-                </a>
-            </div>
-            <div class="tokiante">
-                <a href="\tok\lipuantemi">toki pona</a> | <a href="\en\lipuantemi">English</a> | <a href="\ja\lipuantemi">日本語</a>
-            </div>
-        </div>
-        <div class="lipuante">
-            <div class="nimiante">
-                <a href="\tok\epikijetesantakaluliseme">epikijetesantakalu li seme?</a> | <a href="\tok\nimimakepekentokipona">nimi ma kepeken toki pona</a> | <a href="\tok\lipuantemi">lipu ante mi</a>
-            </div>
-        </div>
+        
+        <div id="menutok"></div>
         <div class="toki">
             <h1>lipu ante mi</h1>
             <ul>
@@ -36,6 +23,9 @@
     
     <div id="footer"></div>
 
+    <script>
+        fetch("\menutok.html").then((response) => response.text()).then((data) => document.querySelector("#menutok").innerHTML = data);
+    </script>
     <script>
         fetch("..\\footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
     </script>
