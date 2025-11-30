@@ -37,9 +37,10 @@ footer {
 }
 
 html {
-    --background-colour: white;
-    --main-colour: gainsboro;
-    --title-colour: gray;
+    --main-colour: #ffebee;
+    --background-colour: #ffe0e5;
+    --title-colour: #FFA2B1;
+    --transition-colour: #ffc0cb;
     color: black;
     margin: 0px;
 }
@@ -72,7 +73,7 @@ small {
 }
 
 .footer-colour {
-    background-color: var(--main-colour);
+    background-color: var(--transition-colour);
     padding-bottom: 10px;
 }
 
@@ -80,8 +81,12 @@ small {
     color: var(--main-colour);
 }
 
-.lipuante {
+.langbutton {
     background-color: var(--main-colour);
+}
+
+.lipuante {
+    background-color: var(--transition-colour);
     height: max-content;
     width: 100%;
     padding-top: 5px;
@@ -145,7 +150,7 @@ small {
 }
 
 .tokiante {
-    background-color: white;
+    background-color: var(--main-colour);
     width: max-content;
     margin-left: auto;
     margin-right: 10%;
