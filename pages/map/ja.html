@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<title>lipu epikijetesantakalu</title>
+		<link rel="stylesheet" href="\css\main.css" />
+		<link rel="icon" type="image/x-icon" href="\sitelen\favicon.ico" />
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+			integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+			crossorigin=""
+		/>
+		<script
+			src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+			integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+			crossorigin=""
+		></script>
+	</head>
+	<body>
+        <div id="menuja"></div>
+		<div class="toki">
+			<h1>トキポナ世界地図</h1>
+			<p>
+				他の文献に載っている地名を集めたトキポナ世界地図です。<small
+					>トキポナ世界革命に最適</small
+				>
+			</p>
+			<ul>
+				<li><span style="color: crimson">赤</span>は大陸です。</li>
+				<li>
+					<span style="color: orangered">橙</span>は<i>ma lawa</i
+					>です。
+				</li>
+				<li><span style="color: royalblue">青</span>は街です。</li>
+				<li>
+					<span style="color: forestgreen">緑</span>は自然のものです。
+				</li>
+				<li><span style="color: purple">紫</span>はその他です。</li>
+			</ul>
+			<div id="map"></div>
+			<h2>追加してほしいものとか変えてほしいことがある！</h2>
+			<p>
+				連絡してください！ただし新しく追加する際は参考文献が必要です。
+			</p>
+		</div>
+
+		<div id="footer"></div>
+<script>
+        fetch("\menu\ja.html").then((response) => response.text()).then((data) => document.querySelector("#menuja").innerHTML = data);
+    </script>
+		<script>
+			fetch("\footer.html")
+				.then((response) => response.text())
+				.then(
+					(data) =>
+						(document.querySelector("#footer").innerHTML = data)
+				);
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/leaflet-sprite@1.0.0/dist/leaflet.sprite.min.js"></script>
+		<script src="\toki wawa\nimimakepekentokipona.js"></script>
+	</body>
+</html>
