@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>lipu epikijetesantakalu</title>
+        <link rel="stylesheet" href="\css\main.css">
+        <link rel="icon" type="image/x-icon" href="\sitelen\favicon.ico">
+    </head>
+    <body>
+        <div id="menuen"></div>
+        <div class="toki">
+            <h1>Welcome to epikijetesantakalu's website!</h1>
+            <h2>Who are you?</h2>
+            <p>I am epikijetesantakalu! I currently live in Japan. I can speak in English, Japanese, and toki pona. I use she/her pronouns.</p>
+            <h2>Why does this website look so strange?</h2>
+            <p>I'm really bad at CSS. If you ask me, CSS is the root of all evil.</p>
+        </div>
+        
+    
+    <div id="footer"></div>
+<script>
+        fetch("/menu/en.html").then((response) => response.text()).then((data) => document.querySelector("#menuen").innerHTML = data);
+    </script>
+    <script>
+        fetch("/footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
+    </script>
+    </body>
+</html>
