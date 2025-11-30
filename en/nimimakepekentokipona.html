@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>lipu epikijetesantakalu</title>
+        <link rel="stylesheet" href="\css\main.css">
+        <link rel="icon" type="image/x-icon" href="\sitelen\favicon.ico">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    </head>
+    <body>
+        
+    
+    <div id="menuen"></div>
+
+        <div class="toki">
+            <h1>Toki pona world map</h1>
+            <p>This is a purely anecdotal world map in toki pona.</p>
+            <ul>
+                <li>The <span style="color: crimson;">red</span> icon indicates continents.</li>
+                <li>The <span style="color: orangered;">orange</span> icon indicates <i>ma lawa</i>.</li>
+                <li>The <span style="color:royalblue;">blue</span> icon indicates towns and cities.</li>
+                <li>The <span style="color:forestgreen;">green</span> icon indicates natural stuff.</li>
+                <li>The <span style="color: purple;">purple</span> icon indicates everything else.</li>
+            </ul>
+            <div id="map"></div>
+            <h2>I have a suggestion/error!</h2>
+            <p>Please contact me! But if you want to add something, please send me a source.</p>
+        </div>
+    
+    <div id="footer"></div>
+
+    <script>
+        fetch("\menuen.html").then((response) => response.text()).then((data) => document.querySelector("#menuen").innerHTML = data);
+    </script>
+    <script>
+        fetch("..\\footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
+    </script>
+        <script src="https://cdn.jsdelivr.net/npm/leaflet-sprite@1.0.0/dist/leaflet.sprite.min.js"></script>
+        <script src="\toki wawa\nimimakepekentokipona.js"></script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>lipu epikijetesantakalu</title>
+        <link rel="stylesheet" href="\css\main.css">
+        <link rel="icon" type="image/x-icon" href="\sitelen\favicon.ico">
+    </head>
+    <body>
+        
+    
+    <div id="menuen"></div>
+
+        <div class="toki">
+            <h1>What's an epikijetesantakalu?</h1>
+            <p>epikijetesantakalu is an <i>nimi sin</i>(new toki pona word) that I coined. It means "Cozumel Raccoon", which is another type of raccoon, different from the common raccoon.</p>
+            <p>Last time I checked, I was the only Cozumel raccoon speaking toki pona, so I do not need a toki pona name. However, if another Cozumel raccoon started speaking toki pona, I might look for a name.</p>
+            <figure>
+                <img src="\sitelen\epikijetesantakalu.png" alt="sitelen pona epikijetesantakalu">
+                <figcaption>The <i>sitelen pona</i> for epikijetesantakalu.</figcaption>
+            </figure>
+        </div>
+    
+    <div id="footer"></div>
+
+    <script>
+        fetch("\menuen.html").then((response) => response.text()).then((data) => document.querySelector("#menuen").innerHTML = data);
+    </script>
+    <script>
+        fetch("..\\footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
+    </script>
+    </body>
+</html>
