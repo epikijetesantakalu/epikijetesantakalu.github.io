@@ -44,14 +44,14 @@
   #right {
     float: none;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 0px;
   }
 }
 @media (max-width: 1000px) {
   #right {
     float: none;
     width: 100%;
-    margin-top: 180px;
+    margin-top: 0px;
   }
 }
 
