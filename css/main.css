@@ -131,7 +131,7 @@ small {
     background-color: var(--transition-colour);
     cursor: pointer;
     border: none;
-    width: max-content;
+    width: 300px;
     font-size: 1.25rem;
     height: 100%;
     color: white;
