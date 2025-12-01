@@ -10,7 +10,7 @@
 	<body>
 		
         <div id="menutok"></div>
-        <div id="leftads"></div>
+        <div id="left"></div>
 		<div class="toki">
 			<h1>o kama pona! ni li lipu epikijetesantakalu!</h1>
 			<h2>sina seme?</h2>
@@ -69,7 +69,7 @@
 				);
 		</script>
 <script>
-        fetch("/leftads.html").then((response) => response.text()).then((data) => document.querySelector("#leftads").innerHTML = data);
+        fetch("/left.html").then((response) => response.text()).then((data) => document.querySelector("#left").innerHTML = data);
     </script>
 		<script>
 			fetch("/footer.html")

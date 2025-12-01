@@ -4,7 +4,7 @@
     src: url(https://kaeru2193.github.io/Phun-Resources/font/Phun-Sans/Phun-Sans-Rounded-Regular.woff) format("woff")
 }
 
-#leftads{
+#left{
     float: left;
     width: 16%;
     justify-content: center;
