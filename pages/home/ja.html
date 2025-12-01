@@ -7,6 +7,7 @@
 	</head>
 	<body>
 		<div id="menuja"></div>
+        <div id="leftads"></div>
 		<div class="toki">
 			<h1>えぴきいぇてさんたかるのウェブサイトにようこそ！</h1>
 			<h2>お前誰やねん</h2>
@@ -46,6 +47,9 @@
 						(document.querySelector("#menuja").innerHTML = data)
 				);
 		</script>
+<script>
+        fetch("/leftads.html").then((response) => response.text()).then((data) => document.querySelector("#leftads").innerHTML = data);
+    </script>
 		<script>
 			fetch("/footer.html")
 				.then((response) => response.text())

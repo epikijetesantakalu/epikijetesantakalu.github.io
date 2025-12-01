@@ -4,6 +4,15 @@
     src: url(https://kaeru2193.github.io/Phun-Resources/font/Phun-Sans/Phun-Sans-Rounded-Regular.woff) format("woff")
 }
 
+#leftads{
+    float: left;
+    width: 16%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+}
 #map {
     height: 500px;
 }
@@ -88,6 +97,7 @@ small {
 :lang(tok) {
     font-family: "Catamaran", sans-serif;
 }
+
 .blue{
     color: blue;
 }
@@ -117,6 +127,7 @@ small {
 .langbutton:hover {
     background-color: var(--transition-colour);
 }
+
 
 .lipuante {
     background-color: var(--transition-colour);
@@ -200,8 +211,8 @@ small {
     background-color: var(--main-colour);
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 4%;
+    padding-right: 4%;
     border-radius: 20px;
     width: 60%;
     margin-left: auto;
