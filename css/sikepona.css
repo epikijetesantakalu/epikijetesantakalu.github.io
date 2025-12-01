@@ -13,11 +13,11 @@
   align-content: center;
 }
 
-#sike-pona #left { text-align: left; }
-#sike-pona #mid { text-align: center; }
-#sike-pona #right { text-align: right; }
+#sike-pona #leftsikepona { text-align: left; }
+#sike-pona #midsikepona { text-align: center; }
+#sike-pona #rightsikepona { text-align: right; }
 
-#sike-pona #left, #sike-pona #right {
+#sike-pona #leftsikepona, #sike-pona #rightsikepona {
   flex-grow: 1;
   flex-basis: 0;
 }

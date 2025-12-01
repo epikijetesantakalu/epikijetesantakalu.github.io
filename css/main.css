@@ -53,11 +53,6 @@ footer {
     padding-top: 5px;
     color: white;
 }
-@media (max-width: 1200px) {
-  footer {
-    margin-top:80px;
-  }
-}
 
 h1{
     font-size: 2rem;
