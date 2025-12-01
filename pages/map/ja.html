@@ -20,6 +20,7 @@
 	<body>
         <div id="menuja"></div>
         <div id="left"></div>
+        <div id="right"></div>
 		<div class="toki">
 			<h1>トキポナ世界地図</h1>
 			<p>
@@ -52,6 +53,9 @@
     </script>
 <script>
         fetch("/left.html").then((response) => response.text()).then((data) => document.querySelector("#left").innerHTML = data);
+    </script>
+<script>
+        fetch("/right.html").then((response) => response.text()).then((data) => document.querySelector("#right").innerHTML = data);
     </script>
 		<script>
 			fetch("/footer.html")
