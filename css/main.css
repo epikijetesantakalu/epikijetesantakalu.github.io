@@ -19,6 +19,7 @@
     display: flex;
     padding-top: 0px;
     flex-direction: column;
+    color: var(--color-left);
 }
 @media (max-width: 1200px) {
   #left {
@@ -88,6 +89,7 @@ footer {
     text-align: center;
     margin-top: 2%;
     padding-top: 5px;
+    color: var(--color-footer);
 }
 
 h1{
@@ -127,6 +129,8 @@ img {
     --h-inner: white;
     --h-outer: #0C836D;
     color: black;
+    --color-left: black;
+    --color-footer: black;
 }
 
 small {
@@ -153,6 +157,18 @@ small {
     color: blue;
 }
 
+.nightmode{
+    --main-colour: #3c3f68;
+    --background-colour: #282c4d;
+    --title-colour: #1c1f3b;
+    --transition-colour: #222544;
+    --h-inner: #606271;
+    --h-outer: var(--title-colour);
+    color: var(--title-colour);
+    --color-left: var(--h-inner);
+    --color-footer: var(--h-inner);
+}
+
 .pastelmode{
     --main-colour: #BDE0FE;
     --background-colour: #A2D2FF;
@@ -161,6 +177,8 @@ small {
     --h-inner: white;
     --h-outer: #FFAFCC;
     color: var(--h-outer);
+    --color-left: var(--h-inner);
+    --color-footer: var(--h-inner);
 }
 
 .pinkmode{
@@ -171,6 +189,8 @@ small {
     --h-inner: white;
     --h-outer: var(--title-colour);
     color: var(--title-colour);
+    --color-left: var(--title-colour);
+    --color-footer: var(--title-colour);
 }
 
 .purplemode{
@@ -179,8 +199,10 @@ small {
     --title-colour: #0f080f;
     --transition-colour: #2e192c;
     --h-inner: #be89b8;
-    --h-outer: #2e192c;
+    --h-outer: var(--background-colour);
     color: var(--title-colour);
+    --color-left: var(--title-colour);
+    --color-footer: var(--title-colour);
 }
 
 .footer-colour {

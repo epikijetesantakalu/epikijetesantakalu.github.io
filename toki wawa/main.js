@@ -1,4 +1,4 @@
-const themes = ["pinkmode", "purplemode", "kaerumode", "pastelmode"];
+const themes = ["pinkmode", "nightmode", "kaerumode", "purplemode", "pastelmode"];
 const body = document.body;
 let currentThemeIndex = parseInt(localStorage.getItem("themeIndex"), 10);
 if (isNaN(currentThemeIndex)) {
