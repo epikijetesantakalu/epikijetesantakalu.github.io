@@ -78,6 +78,7 @@ body {
     font-size: 120%;
     background-color: var(--background-colour);
     color: var(--title-colour);
+    --kaeruiro: #0C836D;
 }
 
 button {
@@ -111,7 +112,6 @@ h3{
 
 html {
     margin: 0px;
-    --kaeruiro: #60c187;
 }
 
 img {
@@ -125,7 +125,7 @@ img {
     --main-colour: white;
     --background-colour: #D2FFE3;
     --title-colour: #0C836D;
-    --transition-colour: var(--kaeruiro);
+    --transition-colour: #60c187;
     --h-inner: white;
     --h-outer: #0C836D;
     color: black;
