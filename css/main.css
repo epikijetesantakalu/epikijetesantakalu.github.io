@@ -153,6 +153,16 @@ small {
     color: blue;
 }
 
+.pastelmode{
+    --main-colour: #BDE0FE;
+    --background-colour: #A2D2FF;
+    --title-colour: #FFC8DD;
+    --transition-colour: #CDB4DB;
+    --h-inner: white;
+    --h-outer: #FFAFCC;
+    color: var(--h-outer);
+}
+
 .pinkmode{
     --main-colour: #ffebee;
     --background-colour: #ffe0e5;
