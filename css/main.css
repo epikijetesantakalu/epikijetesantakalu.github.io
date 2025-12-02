@@ -182,6 +182,7 @@ small {
     height: 30px;
     width: 100%;
     display: flex;
+    flex-direction: column;
     gap: 0;
     font-size: 0;
 }
@@ -192,8 +193,10 @@ small {
     border: none;
     width: max-content;
     font-size: 1.25rem;
-    height: 100%;
+    height: 30px;
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .linkbutton:hover {
@@ -220,6 +223,11 @@ small {
 
 .nimiante {
     margin-left: 10%;
+} @media (max-width: 1000px) {
+    .nimiante {
+        margin-left: 0;
+        align-self: center;
+    }
 }
 
 .phun {
@@ -242,6 +250,8 @@ small {
 @media (max-width: 1000px) {
   .sewi {
     height: 10rem;
+    display: flex;
+    flex-direction: column;
 }
     
 }
@@ -255,7 +265,14 @@ small {
     margin-left: 10%;
     font-size: 2rem;
     color: white;
-    padding-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media (max-width: 1000px) {
+  .titlebutton {
+    margin-left: 0;
+    align-self: center;
+}
 }
 
 .titlebutton:hover {
