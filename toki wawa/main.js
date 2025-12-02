@@ -1,6 +1,10 @@
 const themes = ["pinkmode", "purplemode", "kaerumode"];
-let currentThemeIndex = 0;
 const body = document.body;
+let currentThemeIndex = parseInt(localStorage.getItem("themeIndex"), 10);
+if (isNaN(currentThemeIndex)) {
+    currentThemeIndex = 0;
+}
+body.classList.add(themes[currentThemeIndex]);
 
 function copyText() {
 	navigator.clipboard.writeText(
@@ -10,7 +14,8 @@ function copyText() {
 }
 
 function colours() {
-	body.classList.remove(themes[currentThemeIndex]);
-	currentThemeIndex = (currentThemeIndex + 1) % themes.length;
-	body.classList.add(themes[currentThemeIndex]);
+    body.classList.remove(themes[currentThemeIndex]);
+    currentThemeIndex = (currentThemeIndex + 1) % themes.length;
+    body.classList.add(themes[currentThemeIndex]);
+    localStorage.setItem("themeIndex", currentThemeIndex);
 }
