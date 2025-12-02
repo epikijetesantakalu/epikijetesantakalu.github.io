@@ -40,7 +40,7 @@
 
 #right{
     float: right;
-    width: 16%;
+    width: 239px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -50,14 +50,6 @@
 @media (max-width: 1200px) {
   #right {
     float: none;
-    width: 100%;
-    margin-top: 0px;
-  }
-}
-@media (max-width: 1000px) {
-  #right {
-    float: none;
-    width: 100%;
     margin-top: 0px;
   }
 }
@@ -83,6 +75,18 @@ body {
     font-size: 120%;
     background-color: var(--background-colour);
     color: var(--title-colour);
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-size: 1em;
 }
 
 footer {
@@ -124,6 +128,17 @@ img {
     image-rendering: crisp-edges;
     image-rendering: pixelated;
     image-rendering: -webkit-optimize-contrast;
+}
+
+pre {
+    
+    margin: 1rem 0;
+    padding: .8rem;
+    border-radius: 5px;
+    background: #24272c;
+    color: #fff;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 small {

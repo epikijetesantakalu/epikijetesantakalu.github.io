@@ -1,53 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>EPIKU</title>
-        <link rel="stylesheet" href="\css\main.css">
-        <link rel="icon" type="image/x-icon" href="\sitelen\favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div id="menuen"></div>
-        <div id="left"></div>
-        <div id="right"></div>
-        <div class="toki">
-            <h1>Welcome to epiku.net!</h1>
-            <h2>Who are you?</h2>
-            <p>I'm Lilith, also known as epikijetesantakalu Lili! I currently live in Japan. I can speak in English, Japanese, and toki pona. I use she/her pronouns.</p>
-            <p>epikijetesantakalu (sitelen pona: <img src="\sitelen\epikijetesantakalupink.png" alt="sitelen pona epikijetesantakalu" class="textimg">) is an <i>nimi sin</i>(new toki pona word) that I coined. It means "Cozumel Raccoon", which is another type of raccoon, different from the common raccoon.</p>
-            
-            <h2>My other things</h2>
-            <ul>
-                <li><a href="https://www.youtube.com/@epikijetesantakalu">My YouTube channel</a></li>
-                <li><a href="https://x.com/epikijetesantak">My Twitter</a></li>
-                <li><a href="https://bsky.app/profile/epikijetesantakalu.bsky.social">My Bluesky</a></li>
-                <li><a href="https://discord.com/users/1198504514467155969">My Discord account</a></li>
-                <li><a href="https://discord.gg/ZwRn6MTqgK">My worldbuilding Discord Server</a></li>
-                <li><a href="https://wiki.epiku.net/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"><u>My worldbuilding wiki</u></a></li>
-                <li><a href="https://migdal.jp/epikijetesantakalu">Migdal</a> (Japanese Conlanger's forum)</li>
-            </ul>
-            <h2>Special Thanks!</h2>
-            <ul>
-                <li>Kosasa Sepeto - Creator of the ˛ı·̂̀·̂́̇˒ and ˛ı·̂·̂˒ ascii art</li>
-                <li><a href="https://kaeru2193.net">kaeru2193</a> - Technical advice</li>
-                <li><a href="https://adryd.com/">adryr</a> - Cat creator</li>
-            </ul>
-        </div>
-        
-    
-    <div id="footer"></div>
-<script>
-        fetch("/menu/en.html").then((response) => response.text()).then((data) => document.querySelector("#menuen").innerHTML = data);
-    </script>
-<script>
-        fetch("/left.html").then((response) => response.text()).then((data) => document.querySelector("#left").innerHTML = data);
-    </script>
-<script>
-        fetch("/right.html").then((response) => response.text()).then((data) => document.querySelector("#right").innerHTML = data);
-    </script>
-    <script>
-        fetch("/footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
-    </script>
-<script src="\toki wawa\oneko.js"></script>
-    </body>
+	<head>
+		<title>EPIKU</title>
+		<link rel="stylesheet" href="\css\main.css" />
+		<link rel="icon" type="image/x-icon" href="\sitelen\favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<div id="menuen"></div>
+		<div id="left"></div>
+		<div id="right"></div>
+		<div class="toki">
+			<h1>Welcome to epiku.net!</h1>
+			<h2>Who are you?</h2>
+			<p>
+				I'm Lilith, also known as epikijetesantakalu Lili! I currently
+				live in Japan. I can speak in English, Japanese, and toki pona.
+				I use she/her pronouns.
+			</p>
+			<p>
+				epikijetesantakalu (sitelen pona:
+				<img
+					src="\sitelen\epikijetesantakalupink.png"
+					alt="sitelen pona epikijetesantakalu"
+					class="textimg"
+				/>) is an <i>nimi sin</i>(new toki pona word) that I coined. It
+				means "Cozumel Raccoon", which is another type of raccoon,
+				different from the common raccoon.
+			</p>
+			<h2>Add this button to your site!</h2>
+			<button onclick="copyText()"
+				><img
+					src="/sitelen/88x31.gif"
+					height="31"
+					alt="button to epiku.net"
+			/></button>
+			<button onclick="copyText()"
+				><img
+					src="/sitelen/88x31.gif"
+					height="31"
+					alt="button to epiku.net"
+			/></button>
+			<button onclick="copyText()"
+				><img
+					src="/sitelen/88x31.gif"
+					height="31"
+					alt="button to epiku.net"
+			/></button>
+			<button onclick="copyText()"
+				><img
+					src="/sitelen/88x31.gif"
+					height="31"
+					alt="button to epiku.net"
+			/></button>
+			<button onclick="copyText()"
+				><img
+					src="/sitelen/88x31.gif"
+					height="31"
+					alt="button to epiku.net"
+			/></button>
+            <p>(Click the buttons to copy html!)</p>
+			<h2>My other things</h2>
+			<ul>
+				<li>
+					<a href="https://www.youtube.com/@epikijetesantakalu"
+						>My YouTube channel</a
+					>
+				</li>
+				<li><a href="https://x.com/epikijetesantak">My Twitter</a></li>
+				<li>
+					<a
+						href="https://bsky.app/profile/epikijetesantakalu.bsky.social"
+						>My Bluesky</a
+					>
+				</li>
+				<li>
+					<a href="https://discord.com/users/1198504514467155969"
+						>My Discord account</a
+					>
+				</li>
+				<li>
+					<a href="https://discord.gg/ZwRn6MTqgK"
+						>My worldbuilding Discord Server</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://wiki.epiku.net/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+						><u>My worldbuilding wiki</u></a
+					>
+				</li>
+				<li>
+					<a href="https://migdal.jp/epikijetesantakalu">Migdal</a>
+					(Japanese Conlanger's forum)
+				</li>
+			</ul>
+			<h2>Special Thanks!</h2>
+			<ul>
+				<li>
+					Kosasa Sepeto - Creator of the ˛ı·̂̀·̂́̇˒ and ˛ı·̂·̂˒ ascii art
+				</li>
+				<li>
+					<a href="https://kaeru2193.net">kaeru2193</a> - Technical
+					advice
+				</li>
+				<li><a href="https://adryd.com/">adryd</a> - Cat creator</li>
+				<li><a href="https://kate.pet/">kate</a> - 88x31 buttons</li>
+			</ul>
+		</div>
+
+		<div id="footer"></div>
+		<script>
+			fetch("/menu/en.html")
+				.then((response) => response.text())
+				.then(
+					(data) =>
+						(document.querySelector("#menuen").innerHTML = data)
+				);
+		</script>
+		<script>
+			fetch("/left.html")
+				.then((response) => response.text())
+				.then(
+					(data) => (document.querySelector("#left").innerHTML = data)
+				);
+		</script>
+		<script>
+			fetch("/right.html")
+				.then((response) => response.text())
+				.then(
+					(data) =>
+						(document.querySelector("#right").innerHTML = data)
+				);
+		</script>
+		<script>
+			fetch("/footer.html")
+				.then((response) => response.text())
+				.then(
+					(data) =>
+						(document.querySelector("#footer").innerHTML = data)
+				);
+		</script>
+		<script src="\toki wawa\oneko.js"></script>
+        <script src="\toki wawa\main.js"></script>
+	</body>
 </html>
