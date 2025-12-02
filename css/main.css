@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    padding-top: 40px;
+    padding-top: 0px;
     flex-direction: column;
 }
 @media (max-width: 1200px) {
@@ -241,6 +241,7 @@ small {
     margin-left: 10%;
     font-size: 2rem;
     color: white;
+    padding-left: 0;
 }
 
 .titlebutton:hover {
@@ -248,7 +249,7 @@ small {
 }
 
 .textimg {
-    width: 180px;
+    width: 50px;
 }
 
 .toki {
