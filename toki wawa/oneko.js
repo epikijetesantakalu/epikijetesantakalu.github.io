@@ -4,8 +4,8 @@
   const nekoEl = document.createElement("div");
 
   let scroll = window.scrollY;
-  let nekoPosX = 275;
-  let nekoPosY = 200;
+  nekoPosX = 345;
+  nekoPosY = 175;
 
   let mousePosX = 0;
   let mousePosY = 0;
@@ -88,8 +88,8 @@
 
   function onResize() {
     if (sleeping) {
-      nekoPosX = 275;
-      nekoPosY = 200;
+      nekoPosX = 345;
+      nekoPosY = 175;
       nekoEl.style.left = `${nekoPosX - 16}px`;
       nekoEl.style.top = `${nekoPosY - 16}px`;
     }
