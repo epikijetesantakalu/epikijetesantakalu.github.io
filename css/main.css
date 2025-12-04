@@ -112,6 +112,7 @@ h1{
     font-size: 2rem;
     color: var(--h-inner);
     text-shadow: 1.5px 1.5px 0 var(--h-outer), 1.5px -1.5px 0 var(--h-outer), -1.5px 1.5px 0 var(--h-outer), -1.5px -1.5px 0 var(--h-outer);
+    text-align: center;
 }
 
 h2{
