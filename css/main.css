@@ -169,6 +169,18 @@ small {
     font-family: "Catamaran", sans-serif;
 }
 
+.blackpinkmode{
+    --main-colour: #ffebee;
+    --background-colour: #ffe0e5;
+    --title-colour: #FFA2B1;
+    --transition-colour: #ffc0cb;
+    --h-inner: black;
+    --h-outer: var(--main-colour);
+    color: var(--h-inner);
+    --color-left: var(--title-colour);
+    --color-footer: var(--title-colour);
+}
+
 .blue{
     color: blue;
 }
