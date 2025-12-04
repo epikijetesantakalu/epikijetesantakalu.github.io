@@ -9,7 +9,7 @@
 	<body>
 		<div id="menuen"></div>
 		<div class="tokibr"></div>
-		<div id="left"></div>
+		<div id="left"><div id="left2"></div><script type="text/javascript">boatload_puzzles_format = 'CompactPortrait';</script><p>Loading <a href="https://www.boatloadpuzzles.com/playcrossword">crossword puzzle</a>. One moment please.</p><script type="text/javascript" src="//www.boatloadpuzzles.com/Crossword.js"></script></div>
 		<div id="right"></div>
 		<div class="toki">
 			<h1>Welcome to epiku.net!</h1>
@@ -109,13 +109,15 @@
 				<li><a href="https://kate.pet/">kate</a> - 88x31 buttons</li>
 			</ul>
 		</div>
+    	<iframe src="https://john.citrons.xyz/embed?ref=epiku.net" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe>
 		<div class="toki">
 			<h1>Site updates!</h1>
 			<h2>2025/12/03</h2>
 			<p>Added the site updates!</p>
 			<p>Added the visitor counter!</p>
+			<h2>2025/12/04</h2>
+			<p>Added a crossword puzzle!</p>
 		</div>
-
 		<div id="footer"></div>
 		<script>
 			fetch("/menu/en.html")
@@ -129,7 +131,8 @@
 			fetch("/left.html")
 				.then((response) => response.text())
 				.then(
-					(data) => (document.querySelector("#left").innerHTML = data)
+					(data) =>
+						(document.querySelector("#left2").innerHTML = data)
 				);
 		</script>
 		<script>
