@@ -177,8 +177,8 @@ small {
     --h-inner: black;
     --h-outer: var(--main-colour);
     color: var(--h-inner);
-    --color-left: var(--title-colour);
-    --color-footer: var(--title-colour);
+    --color-left: var(--h-inner);
+    --color-footer: var(--h-inner);
 }
 
 .blue{
