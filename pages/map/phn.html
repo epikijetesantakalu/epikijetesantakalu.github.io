@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="phn">
+    <head>
+		<title>倫言然世領紙</title>
+		<meta name="description" content="A world map of various place names in toki pona.">
+        <link rel="stylesheet" href="\css\main.css">
+        <link rel="icon" type="image/x-icon" href="\sitelen\favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    </head>
+    <body>
+        
+    
+    <div id="menuphn"></div>
+		<div class="tokibr"></div>
+        <div id="left" lang="en"><div id="left2"></div><script type="text/javascript">boatload_puzzles_format = 'CompactPortrait';</script><p>Loading <a href="https://www.boatloadpuzzles.com/playcrossword">crossword puzzle</a>. One moment please.</p><script type="text/javascript" src="//www.boatloadpuzzles.com/Crossword.js"></script></div>
+        <div id="right" lang="en"></div>
+
+        <div class="toki">
+            <h1>倫言然世領紙</h1>
+            <p>之為倫言然世領紙。</p>
+            <ul>
+                <li><span style="color: crimson;">赤</span>標為大地。</li>
+                <li><span style="color: orangered;">柑彩</span>標為国。</li>
+                <li><span style="color:royalblue;">青</span>標為都。</li>
+                <li><span style="color:forestgreen;">緑</span>標為生様物。</li>
+                <li><span style="color: purple;">蒼</span>標為外物。</li>
+            </ul>
+            <div id="map"></div>
+            <h2>我持求定！</h2>
+            <p>唱曰向我焉！回代和巡基筆向我焉。</p>
+        </div>
+    
+    <div id="footer"></div>
+
+    <script>
+        fetch("/menu/phn.html").then((response) => response.text()).then((data) => document.querySelector("#menuphn").innerHTML = data);
+    </script>
+<script>
+        fetch("/left.html").then((response) => response.text()).then((data) => document.querySelector("#left2").innerHTML = data);
+    </script>
+<script>
+        fetch("/right.html").then((response) => response.text()).then((data) => document.querySelector("#right").innerHTML = data);
+    </script>
+    <script>
+        fetch("/footer.html").then((response) => response.text()).then((data) => document.querySelector("#footer").innerHTML = data);
+    </script>
+        <script src="https://cdn.jsdelivr.net/npm/leaflet-sprite@1.0.0/dist/leaflet.sprite.min.js"></script>
+        <script src="\toki wawa\nimimakepekentokipona.js"></script>
+        <script src="\toki wawa\oneko.js"></script>
+        <script src="\toki wawa\main.js"></script>
+    </body>
+</html>
